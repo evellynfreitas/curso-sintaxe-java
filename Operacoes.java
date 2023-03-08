@@ -2,6 +2,7 @@
 public class Operadores {
 
 	public static void main(String[] args) {
+		int a, b, c;
 		
 		// Concatenação de Strings
 		
@@ -22,13 +23,13 @@ public class Operadores {
 		
 		
 		// Soma
-		int a, b;
+		
 		a = b = 0;
 		
 		System.out.println(a++); // primeiro printa e depois soma
 		System.out.println(++b); // primeiro soma e depois printa
 		
-		int c = a + b;
+		c = a + b;
 		System.out.println(c);
 		
 		a = b = 0;
@@ -37,13 +38,13 @@ public class Operadores {
 		
 		
 		// Subtracao;
-		int i = -5;
-		System.out.println(-i); // multiplica o número por -1
-		System.out.println(i);  // i continua -5, essa operação acima não muda o valor da variável, só do que vai ser impresso na tela
+		c = -5;
+		System.out.println(-c); // multiplica o número por -1
+		System.out.println(c);  // c continua -5, essa operação acima não muda o valor da variável, só do que vai ser impresso na tela
 	
-		i=1; 
-		i--;
-		System.out.println(i);
+		c=1; 
+		c--;
+		System.out.println(c);
 		
 		a = b = 2;
 		a = a-1;   // a = 1
@@ -78,6 +79,7 @@ public class Operadores {
 		if(a > b) System.out.println("A é maior que B");
 		if(a < b) System.out.println("B é maior que A");
 		
+		
 		// Operador Ternário
 		
 		boolean resultado1, resultado2;
@@ -91,7 +93,14 @@ public class Operadores {
 		System.out.println(resultado2);
 		
 		
+		// Operadores Lógicos
 		
+		boolean condicao1 = false;
+		boolean condicao2 = true;
 		
+		if(condicao1 && condicao2) System.out.println("Ambas as condições são verdadeiras");
+		else if(condicao1 || condicao2) System.out.println("Pelo menos uma das condições são verdadeiras");
+		else System.out.println("Nenhuma das condições é verdadeira");
+
 	}
 }
