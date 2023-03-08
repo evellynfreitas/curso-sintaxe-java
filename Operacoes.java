@@ -68,5 +68,19 @@ public class Operadores {
 		// Módulo
 		c = 10 % 8; // c = 2
 		c = 15 % 5; // c = 0
+		
+		
+		// Operador Ternário
+		
+		a = 1; b = 2;
+		boolean resultado1, resultado2;
+		
+		if(a==b) resultado1 = true;
+		else resultado1 = false;
+		
+		resultado2 = a==b ? true : false;
+		
+		System.out.println(resultado1);
+		System.out.println(resultado2);
 	}
 }
