@@ -70,9 +70,16 @@ public class Operadores {
 		c = 15 % 5; // c = 0
 		
 		
+		// Operadores Relacionais
+		a = 1; b = 2;
+		
+		if(a == b) System.out.println("A é igual a B");
+		if(a != b) System.out.println("A é diferente de B");
+		if(a > b) System.out.println("A é maior que B");
+		if(a < b) System.out.println("B é maior que A");
+		
 		// Operador Ternário
 		
-		a = 1; b = 2;
 		boolean resultado1, resultado2;
 		
 		if(a==b) resultado1 = true;
@@ -82,5 +89,9 @@ public class Operadores {
 		
 		System.out.println(resultado1);
 		System.out.println(resultado2);
+		
+		
+		
+		
 	}
 }
