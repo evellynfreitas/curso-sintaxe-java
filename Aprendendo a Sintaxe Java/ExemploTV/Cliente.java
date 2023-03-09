@@ -15,7 +15,7 @@ public class Cliente {
 		System.out.println("4- Aumentar canal");
 		System.out.println("5- Diminuir canal");
 		System.out.println("6- Mudar canal");
-		System.out.println("7- Ver informações da TV");
+		System.out.println("7- Ver informaÃ§Ãµes da TV");
 		System.out.println("8- Desligar\n");
 		
 		do {
