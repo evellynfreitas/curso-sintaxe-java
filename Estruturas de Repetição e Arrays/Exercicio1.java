@@ -1,7 +1,7 @@
 package While;
 import java.util.Scanner;
 
-public class Ex1_NomeIdade {
+public class Exercicio1 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
